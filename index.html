@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Onceflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body >
+    <div>
+        <header>
+            <div class="container">
+                <h2 class="logo"> ONCEFLIX</h2>
+                <nav>
+                <a href="index.html"> Inicio</a>
+                <a href="#personagens"> Personagens </a>
+                <a href="#"> Temporadas</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+        <main>
+        <div class="filme-principal">
+            <div class="container" >
+                <div id="conteudo">
+                <h3 class="titulo"> ONCE UPON A TIME </h3>
+                <p class="decription">Emma visita uma pequena cidade distante e descobre que o local é habitado por personagens dos contos de fadas com problemas do mundo real.</p>
+                </div>
+                <div class="botton">
+                <button role="button" class="botao" onclick="watchNow()" >
+                    <i class="fas fa-play"></i>
+                     ASSISTIR AGORA
+                </button>
+                <button role="button" class="botao" onclick="information()">
+                    <i class="fas fa-info-circle"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carrosel-film">
+        <div class="owl-carousel owl-theme">
+            <div class="item" onmouseover="showVideo()" >
+            <img src="img/emma.jpg" class="box-film" alt="">
+            </div>
+            <div class="item" onmouseover="showVideo1()">
+                <img src="img/all.jpg" class="box-film" alt="">
+            </div>
+            <div class="item" onmouseover="showVideo()">
+                <img src="img/city.jpg" class="box-film"  alt="">
+            </div>
+            <div class="item">
+                <img src="img/moon.jpg" class="box-film" alt="">
+            </div>
+            <div class="item">
+                <img src="img/regina.jpg" class="box-film" alt="">
+            </div>
+            <div class="item">
+                <img src="img/once1.jpg" class="box-film" alt="">
+            </div>
+            <div class="item">
+                <img src="img/once3.jpg" class="box-film" alt="">
+            </div>
+            <div class="item">
+                <img src="img/once4.jpg" class="box-film" alt="">
+            </div>
+        </div>
+        <h3 class="tituper">PERSONAGENS</h3>
+        <div id="personagens">
+            <div class="carrosel-film">
+                <div class="owl-carousel owl-theme">
+                    <div class="iten" >
+                        <img src="img/rainha.jpg" class="box-film" alt="">
+                        <p ><strong>A Rainha Má</strong></p>
+                    </div>
+                    <div class="iten">
+                        <img src="img/cora.jpg" class="box-film" alt="">
+                        <p><strong>Cora</strong></p>
+                    </div>
+                    <div class="iten">
+                        <img src="img/rumpel.jpg" class="box-film" alt="">
+                        <p><strong>Rumpelstiltskin</strong></p>
+                    </div>
+                    <div class="iten" >
+                        <img src="img/emaaa.jpg" class="box-film" alt="">
+                        <p><strong>Emma - A Salvadora</strong></p>
+                    </div>
+                    <div class="iten" >
+                        <img src="img/prince.jpg" class="box-film" alt="">
+                        <p><strong>Príncipe Encatado</strong></p>
+                    </div>
+                    <div class="iten" >
+                        <img src="img/branca.jpg" class="box-film" alt="">
+                        <p><strong>Branca de Neve </strong></p>
+                    </div>
+                    <div class="iten" >
+                        <img src="img/gancho.jpg"  class="box-film" alt="">
+                        <p><strong>Capitão Gancho</strong></p>
+                    </div>
+                    <div class="iten">
+                        <img src="img/malevola.webp" class="box-film" alt="">
+                        <p><strong>Malévola</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f242a4a6b1.js" crossorigin="anonymous"></script>
+    <script src="owll-js/jquery.min.js"></script>
+    <script src="owll-js/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script-capa.js"></script>
+    <script src="script-video.js"></script>
+</body>
+</html>
